@@ -1,0 +1,96 @@
+li{
+	display: inline-block;
+}
+.navbar-top{
+	background-color: black;
+	height: 50px;
+}
+.nav-list{
+	display: block;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+li a {
+	padding: 16px;
+	text-decoration: none;
+	color: turquoise;
+}
+li a:hover {
+	background-color: lightcoral;
+}
+#heroImg{
+	width: 100%;
+	opacity: 30%;
+}
+.header-text{
+	position: absolute;
+	bottom: 300px;
+	text-align: center;
+}
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+.button5 {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+}
+  
+.button5:hover {
+	background-color: #555555;
+	color: white;
+}
+.text-center{
+	text-align: center;
+}
+.usage-categories{
+	background-color: lightgray;
+}
+.nav-logo{
+	background-color: white;
+	width: 60px;
+	padding: 0px;
+	margin: 0px;
+}
+a:link{
+color: red;
+}
+
+/* contact form css */
+input[type=text], select, textarea {
+	width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+.form-container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
