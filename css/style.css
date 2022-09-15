@@ -1,3 +1,15 @@
+/* header css */
+header{
+    display: block;
+    height: 20px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 10px;
+}
+header a:hover{
+    background-color: #555555;
+}
 li{
 	display: inline-block;
 }
@@ -21,13 +33,13 @@ li a:hover {
 }
 li a img{
     display: inline-block;
-    width: 70px;
+    width: 90px;
 }
 #heroImg{
 	width: 100%;
 	opacity: 30%;
 }
-.header-text{
+.hero-text{
 	position: absolute;
 	bottom: 200px;
 	text-align: center;
