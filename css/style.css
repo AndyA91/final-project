@@ -29,7 +29,7 @@ li a img{
 }
 .header-text{
 	position: absolute;
-	bottom: 300px;
+	bottom: 200px;
 	text-align: center;
 }
 .button {
@@ -49,8 +49,12 @@ li a img{
 	background-color: white;
 	color: black;
 	border: 2px solid #555555;
+    border-radius: 16%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
 }
-  
 .button5:hover {
 	background-color: #555555;
 	color: white;
@@ -63,6 +67,21 @@ li a img{
 }
 a:link{
 color: red;
+}
+.usage-categories-cards{
+    display: block;
+}
+.column{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.sticker-type-img{
+    width: 200px;
+}
+/* about page */
+.about-top{
+    text-align: center;
 }
 
 /* contact form css */
