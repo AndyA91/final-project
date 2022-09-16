@@ -125,7 +125,15 @@ i:visited{
 .about-top{
     text-align: center;
 }
-
+.about-img{
+	width: 500px;
+}
+.map{
+	text-align: center;
+}
+.about-text{
+	text-align: center;
+}
 /* contact form css */
 input[type=text], select, textarea {
 	width: 100%;
