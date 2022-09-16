@@ -17,6 +17,7 @@ li{
 	background-color: black;
     top: 0;
     width: 100%;
+	margin-bottom: 20px;
 }
 .nav-list{
 	display: block;
@@ -36,14 +37,33 @@ li a img{
     display: inline-block;
     width: 90px;
 }
+/* body css */
+.hours{
+	background-color: lightgrey;
+	margin-top: 440px;
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
 #heroImg{
 	width: 100%;
 	opacity: 30%;
 }
 .hero-text{
 	position: absolute;
-	bottom: 200px;
+	bottom: 50px;
 	text-align: center;
+}
+.hero-button{
+	text-decoration: none;
+	text-align: center;
+	width: 150px;
+	border-style: double;
+	border-radius: 20px;
+	border-width: 5px;
+	background-color: red;
+	color: white;
 }
 .button {
 	background-color: #4CAF50; /* Green */
@@ -102,7 +122,16 @@ color: red;
 }
 /* footer */
 footer{
+	background-color: black;
+}
+.navbar-bottom{
 	margin-top: 450px;
+	height: 30px;
+	background-color: black;
+}
+.navbar-bottom-all{
+	margin-top: 20px;
+	height: 30px;
 	background-color: black;
 }
 .socials{
@@ -110,10 +139,12 @@ footer{
 	font-size: 30px;
 	text-align: center;
 	color: red;
+	background-color: black
 }
 .copyright{
 	color: red;
 	text-align: center;
+	font-size: 15px;
 }
 i:hover{
 	background-color: aqua;
@@ -127,9 +158,15 @@ i:visited{
 }
 .about-img{
 	width: 500px;
+	border-radius: 10px;
 }
 .map{
+	margin-top: 20px;
 	text-align: center;
+	border-radius: 10px;
+}
+iframe{
+	border-radius: 10%;
 }
 .about-text{
 	text-align: center;
@@ -161,4 +198,5 @@ input[type=submit]:hover {
 	background-color: red;
 	padding: 20px;
 	width: 300px;
+	margin: 20px;
 }
