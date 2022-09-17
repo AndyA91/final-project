@@ -231,3 +231,7 @@ input[type=submit]:hover {
 	border-radius: 50px;
 	text-align: center;
 }
+.googlefont{
+	font-family: 'Bungee Spice', cursive;
+font-family: 'Oswald', sans-serif;
+}
