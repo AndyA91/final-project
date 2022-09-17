@@ -225,3 +225,9 @@ input[type=submit]:hover {
 #iframe-material{
 	margin-bottom: 20px;
 }
+/* contact page css */
+.contact-1{
+	background-color: lightgrey;
+	border-radius: 50px;
+	text-align: center;
+}
