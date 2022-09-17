@@ -101,7 +101,7 @@ li a img{
 	background-color: lightgray;
 }
 a:link{
-color: red;
+color:lightcoral;
 }
 .usage-categories-cards{
     display: block;
@@ -152,7 +152,7 @@ i:hover{
 	background-color: aqua;
 }
 i:visited{
-	color: red;
+	color: black;
 }
 /* about page */
 .about-top{
